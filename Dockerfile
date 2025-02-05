@@ -3,6 +3,7 @@
 FROM node:23-alpine
 
 WORKDIR /app
+VOLUME /app/data
 
 COPY package*.json ./
 
